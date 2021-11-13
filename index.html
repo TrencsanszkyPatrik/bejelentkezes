@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bejelentkezés</title>
+
+
+    <style>
+
+        h1 {
+            text-align: center;
+        }
+
+        * {
+            font-family: serif;
+        }
+
+        table {
+            margin: auto;
+            background-color: rgb(87, 79, 79);
+            color: rgb(201, 197, 197);
+            width: 360px;
+            border-radius: 20px;
+            
+        }   
+
+        input {
+            border-radius: 10px;
+            background-color: salmon;
+        }
+
+        input.gomb {
+            width: 160px;
+            height: 50px;
+            border-radius: 10px;
+            background-color: seashell;
+        }
+
+        .center {
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        p.bejelentkezes {
+            font: bold;
+            text-align: center;
+            font-weight: 900;
+            font-size: 25px;
+            color: rgb(253, 175, 166);
+        }
+
+        p.adatok {
+            text-align: center;
+            font-size: 15px;
+            font-style: italic;
+
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Üdvözöllek az oldalamon, kérlek jelentkezz be!</h1>
+
+    <form>
+
+    <table>
+        <tr>
+            <td colspan="2">
+                <p class="bejelentkezes">Bejelentkezés</p>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>
+                <p class="adatok">Email-cím
+            </td> 
+
+            <td>
+                <input class="center" type="text"></p>
+            </td>
+        </tr>
+
+
+		<tr>
+            <td>
+                <p class="adatok">Jelszó
+            </td>
+
+            <td>
+                <input class="center" type="password"></p>
+            </td>
+        </tr>
+
+
+		<tr>
+            <td colspan="2">
+                <p style="text-align: center;"><input class="gomb" type="button" value="Bejelentkezés"></p>
+            </td>
+        </tr> 
+    </table>
+
+    </form>
+</body>
+</html>
